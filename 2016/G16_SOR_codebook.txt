@@ -1,0 +1,146 @@
+2016 General Election Statement of Registration (SOR) Data
+
+Field Name	Description
+
+Election	G16= 2016 General Election
+
+TYPE		R= data for all registered voters, A= data for registered voters that voted by mail ballot, P= data for registered voters that voted at the polling place, V= data for registered voters that voted (sum of A and P i.e. the ABS and POLLV data files)
+
+Variable Name	Description						
+TOTREG		Total registration	
+DEM		Democratic Party Registration	
+REP		Republican Party Registration	
+AIP		American Independent Party Registration	
+PAF		Peace and Freedom Party Registration	
+MSC		Miscellaneous Registration	
+LIB		Libertarian Party Registration	
+NLP		Natural Law Party Registration	
+GRN		Green Party Registration	
+REF		Reform Party Registration	
+DCL		Declined to State Registration	
+MALE		Male	
+FEMALE		Female
+HISPDEM		Latino Democrats
+HISPREP		Latino Republicans
+HISPDCL		Latino Declined to State
+HISPOTH		Latino Other Party
+JEWDEM		Jewish Democrat
+JEWREP		Jewish Republican
+JEWDCL		Jewish Declined to State
+JEWOTH		Jewish Other Party
+KORDEM		Korean Democrat (All Asian surname matches unconditional)
+KORREP		Korean Republican
+KORDCL		Korean Declined to State
+KOROTH		Korean Other Party
+JPNDEM		Japanese Democrat
+JPNREP		Japanese Republican
+JPNDCL		Japanese Declined to State
+JPNOTH		Japanese Other Party
+CHIDEM		Chinese Democrat
+CHIREP		Chinese Republican
+CHIDCL		Chinese Declined to State
+CHIOTH		Chinese Other Party
+INDDEM		Asian Indian Democrat
+INDREP		Asian Indian Republican
+INDDCL		Asian Indian Declined to State
+INDOTH		Asian Indian Other Party
+VIETDEM		Vietnamese Democrat
+VIETREP		Vietnamese Republican
+VIETDCL		Vietnamese Declined to State
+VIETOTH		Vietnamese Other Party
+FILDEM		Filipino Democrat
+FILREP		Filipino Republican
+FILDCL		Filipino Declined to State
+FILOTH		Filipino Other Party
+DEMMUNK		Dem Male age unknown
+DEMM1824	Dem Male age 18-23
+DEMM2534	Dem Male age 24-33
+DEMM3544	Dem Male age 34-43
+DEMM4554	Dem Male age 44-53
+DEMM5564	Dem Male age 54-63
+DEMM65PL	Dem Male age 64 Plus
+DEMFUNK		Dem female age unknown
+DEMF1824	Dem female age 18-23
+DEMF2534	Dem female age 24-33
+DEMF3544	Dem female age 34-43
+DEMF4554	Dem female age 44-53
+DEMF5564	Dem female age 54-63
+DEMF65PL	Dem female age 64 Plus
+REPMUNK		Rep male age unknown
+REPM1824	Rep male age 18-23
+REPM2534	Rep male age 24-33
+REPM3544	Rep male age 34-43
+REPM4554	Rep male age 44-53
+REPM5564	Rep male age 54-63
+REPM65PL	Rep male age 64 Plus
+REPFUNK		Rep female age unknown
+REPF1824	Rep female age 18-23
+REPF2534	Rep female age 24-33
+REPF3544	Rep female age 34-43
+REPF4554	Rep female age 44-53
+REPF5564	Rep female age 54-63
+REPF65PL	Rep female age 64 Plus
+DCLMUNK		Declined to State male age unknown
+DCLM1824	Declined to State male age 18-23
+DCLM2534	Declined to State male age 24-33
+DCLM3544	Declined to State male age 34-43
+DCLM4554	Declined to State male age 44-53
+DCLM5564	Declined to State male age 54-63
+DCLM65PL	Declined to State male age 64 Plus
+DCLFUNK		Declined to State female age unknown
+DCLF1824	Declined to State female age 18-23
+DCLF2534	Declined to State female age 24-33
+DCLF3544	Declined to State female age 34-43
+DCLF4554	Declined to State female age 44-53
+DCLF5564	Declined to State female age 54-63
+DCLF65PL	Declined to State female age 64 Plus
+OTHMUNK		Other Party male age unknown
+OTHM1824	Other Party male age 18-23
+OTHM2534	Other Party male age 24-33
+OTHM3544	Other Party male age 34-43
+OTHM4554	Other Party male age 44-53
+OTHM5564	Other Party male age 54-63
+OTHM65PL	Other Party male age 64 Plus
+OTHFUNK		Other Party female age unknown
+OTHF1824	Other Party female age 18-23
+OTHF2534	Other Party female age 24-33
+OTHF3544	Other Party female age 34-43
+OTHF4554	Other Party female age 44-53
+OTHF5564	Other Party female age 54-63
+OTHF65PL	Other Party female age 64 Plus
+DREG1G		Dem registered 1 cycle (since g10)
+DREG2G		Dem registered 2 cycles (Since g08)
+DREG3G		Dem registered 3 cycles (since g06)
+DREG4G		Dem registered 4 cycles (Since g04)
+DREG5G		Dem registered 5 cycles (Since g02)
+DREG6G		Dem registered 6 cycles (Since g00)
+DREG7G		Dem registered 7 cycles (Since g98)
+DREG8G		Dem registered 8 cycles (Since g96)
+DREG9G		Dem no or earlier reg date than 96
+RREG1G		REP registered 1 cycle (since g10)
+RREG2G		REP registered 2 cycles (Since g08)
+RREG3G		REP registered 3 cycles (Since g06)
+RREG4G		REP registered 4 cycles (Since g04)
+RREG5G		REP registered 5 cycles (Since g02)
+RREG6G		REP registered 6 cycles (Since g00)
+RREG7G		REP registered 7 cycles (Since g98)
+RREG8G		REP registered 8 cycles (Since g96)
+RREG9G		REP no or earlier reg date than 96
+IREG1G		Declined to state registration 1 cycle (since g10)  
+IREG2G		Declined to state registration 2 cycles (since g08)
+IREG3G		Declined to state registration 3 cycles (since g06)
+IREG4G		Declined to state registration 4 cycles (since g04)
+IREG5G		Declined to state registration 5 cycles (since g02)
+IREG6G		Declined to state registration 6 cycles (since g00)
+IREG7G		Declined to state registration 7 cycles (since g98)
+IREG8G		Declined to state registration 8 cycles (since g96)
+IREG9G		Declined to State no or earlier reg date than 96
+OREG1G		OTHER PARTY registered 1 cycle 
+OREG2G		OTHER PARTY registered 2 cycles
+OREG3G		OTHER PARTY registered 3 cycles 
+OREG4G		OTHER PARTY registered 4 cycles
+OREG5G		OTHER PARTY registered 5 cycles 
+OREG6G		OTHER PARTY registered 6 cycles 
+OREG7G		OTHER PARTY registered 7 cycles 
+OREG8G		OTHER PARTY registered 8 cycles 
+OREG9G		OTHER Party no or earlier reg date than 96
