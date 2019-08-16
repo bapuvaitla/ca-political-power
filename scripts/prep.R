@@ -83,6 +83,7 @@
       x <- setDT(x))
   file.remove("./2016/acs_2016_template.zip")
   acs_id_cols <- acs_16_5y[[1]][1:6]
+  acs_id_template <- acs_16_template[[1]][1:6]
   acs_16_5y <- lapply(acs_16_5y, function(x)
     x <- x %>% rename_at(vars(1:6), ~ names(acs_id_template)))
         # Add GEOIDs
@@ -99,7 +100,6 @@
     x <- x[, (1:6) := NULL])
   acs_16_5y_int <- bind_cols(acs_16_5y_int)
   acs_16_5y_int <- bind_cols(acs_id_cols, acs_16_5y_int)
-  acs_id_template <- acs_16_template[[1]][1:6]
   acs_16_template_int <- lapply(acs_16_template, function(x)
     x <- x[, (1:6) := NULL])
   acs_16_template_int <- bind_cols(acs_16_template_int)
